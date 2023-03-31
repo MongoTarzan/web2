@@ -1,0 +1,36 @@
+html {
+    background-color: #57e75e;
+}
+
+input {
+    display: flex;
+    height: 40px;
+    font-size: 40px;
+    padding: 10px;
+    width: 40%;
+    border: none;
+}
+
+.box {
+    justify-content: space-evenly;
+    margin: 3px;
+    display: flex;
+}
+
+span {
+    display: block;
+    font-size: 40px;
+    margin-left: 50%;
+    color: white;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+button {
+    background-color: white;
+    font-size: 40px;
+    border: none;
+    margin: 3px;
+    width: 100%;
+    padding: 10px;
+}
