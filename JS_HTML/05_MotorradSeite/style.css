@@ -1,0 +1,135 @@
+body {
+    background-image: url("./images/hintergrund.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul#models {
+    margin-left: 45px;
+  }
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #suchleiste {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }   
+    
+    form {
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    }
+    
+    label {
+    margin-right: 10px;
+    font-size: 18px;
+    }
+    
+    select {
+    margin-left: 5px;
+    }
+    
+    
+    
+    button[type="button"] {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #65a9e9;
+    border: solid;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    }
+
+    .markenAufzaehlung{
+        list-style: disc;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+    margin-bottom: 5px;
+    }
+    
+    .bikes {
+    padding: 20px;
+    border-style: solid;
+    margin-bottom: 5px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+
+    select {
+        background-color: #8abdec;
+        border: solid;
+        font-size: 16px;
+        padding: 8px 10px;
+        width: 200px;
+        -webkit-appearance: none;
+        -moz-appearance: none; 
+        appearance: none; 
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      select:hover {
+        background-color: #64adf1;
+      }
+      
+      select option {
+        color: #ffffff;
+      }
+      
+      #make {
+        margin-right: 10px;
+      }
+
+      .box {
+        background-color: #8abdec1c;
+        font-size: 18px;
+        padding: 10px 10px;
+        -webkit-appearance: none;
+        -moz-appearance: none; 
+        appearance: none; 
+      }
+
+      input {
+        border: solid;
+        border-radius: 0.5em;;
+        font-size: 18px;
+        width: 10em;
+        transition: width 0.5s ease-in-out;
+      }
+       
+      input:focus {
+        font-size: 18px;
+        width: 250px;
+      }
+
+      button:hover {
+        background-color: #77b7f3;
+      }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motorräder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Motorrad Archiv</h1>
+    <form>
+        <label for="make">Motorradmarke:</label>
+        <select id="make">
+        <option value="">--Bitte auswählen--</option>
+        <option value="Honda">Honda</option>
+        <option value="Yamaha">Yamaha</option>
+        <option value="Harley-Davidson">Harley-Davidson</option>
+        <option value="Kawasaki">Kawasaki</option>
+        <option value="BMW">BMW</option>
+        <option value="Suzuki">Suzuki</option>
+        <option value="Ducati">Ducati</option>
+        <option value="Triumph">Triumph</option>
+        <option value="KTM">KTM</option>
+        <option value="Aprilia">Aprilia</option>
+        <option value="Indian">Indian</option>
+        <option value="Moto Guzzi">Moto Guzzi</option>
+        <option value="Victory">Victory</option>
+        <option value="Derbi">Derbi</option>
+        <option value="Husqvarna">Husqvarna</option>
+        </select>
+    </form>
+
+    <div id="suchleiste">
+        <div id="box" class="box" hidden>
+            <label for="search">Suche nach Modellen:</label>
+            <input type="text" id="search" placeholder="Gib ein Modell ein">
+            <button type="button" id="searchBtn">Suchen</button>
+          </div>
+    </div>
+    
+    <br>
+    <ul id="models"></ul>
+    <br>
+    <ul id="models"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
